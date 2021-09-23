@@ -24,6 +24,7 @@ const App = () => {
 
   return (
     <div>
+      <h1>スーパーチャット</h1>
       {messages.map((message) => (
         <div key={message.key}>
           {message.name}:{message.text}
